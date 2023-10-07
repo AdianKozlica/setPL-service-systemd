@@ -1,0 +1,9 @@
+[Unit]
+Description=Set PL1 and PL2
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/setPL.sh 15 25
+
+[Install]
+WantedBy=multi-user.target
